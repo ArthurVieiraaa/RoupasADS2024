@@ -5,6 +5,9 @@
 
 <div class="banner">
     <img src="assets/img/Banner.png" alt="">
+    <div class="btn-banner">
+        <a href="produtos.php"><button>Vem Aproveirar!</button></a>
+    </div>
 </div>
 
 <?php

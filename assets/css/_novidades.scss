@@ -31,6 +31,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 30%;
 }
 
 .card div img{
@@ -38,6 +39,7 @@
     height: 85%;
     object-fit: cover;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .card .info{
@@ -46,12 +48,15 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    width: 70%;
+    text-align: center;
 }
 
 .card .info h2{
     color: #9b7d67;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .card .info h4{
@@ -62,7 +67,7 @@
 }
 
 .card .info button{
-    width: 100%;
+    width: 100px;
     height: 45px;
     margin-top: 10px;
     background-color: rgba(155, 117, 91, 0.788);
@@ -77,7 +82,7 @@
 
 .card .info button:hover{
     background-color: #9b7d67;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
     transform: scale(1.05);
 }

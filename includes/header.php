@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="navbar">
-            <img src="assets/img/LogoLoja.png" alt="">
+            <a href="index.php"><img src="assets/img/LogoLoja.png" alt=""></a>
         </div>
         <div class="navbar-btn">
             <?php

@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  background-color: #f8f8f8;
 }
 
 ol, ul {
@@ -173,6 +174,30 @@ h1 {
      object-fit: cover;
 }
 
+.btn-banner button {
+  position: absolute;
+  top: 67%;
+  left: 7%;
+  padding: 30px 85px;
+  background-color: #d9d9d9;
+  border: 2px solid #605e5e;
+  color: #605e5e;
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-banner button:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.445);
+  transition: all 0.3s;
+  transform: scale(1.02);
+  border: 2px solid #938173;
+  color: #938173;
+}
+
 .novidades {
   background-color: #f8f8f8;
   padding: 20px;
@@ -206,6 +231,7 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 30%;
 }
 
 .card div img {
@@ -214,6 +240,7 @@ h1 {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .card .info {
@@ -222,12 +249,15 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  width: 70%;
+  text-align: center;
 }
 
 .card .info h2 {
   color: #9b7d67;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .card .info h4 {
@@ -238,7 +268,7 @@ h1 {
 }
 
 .card .info button {
-  width: 100%;
+  width: 100px;
   height: 45px;
   margin-top: 10px;
   background-color: rgba(155, 117, 91, 0.788);
@@ -253,7 +283,7 @@ h1 {
 
 .card .info button:hover {
   background-color: #9b7d67;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.6);
   transition: all 0.3s;
   transform: scale(1.05);
 }
