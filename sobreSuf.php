@@ -1,10 +1,10 @@
 <?php
-    $title = "Produtos";
+    $title = "Serviços";
     include "includes/header.php";
 ?>
 
 <?php
-    include "includes/produtos.php";
+    include "includes/sobre.php";
 ?>
 
 <?php

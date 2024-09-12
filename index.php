@@ -8,7 +8,11 @@
 </div>
 
 <?php
-    include "includes/apresentacao.php";
+    include "includes/novidades.php";
+?>
+
+<?php
+    include "includes/produtos.php";
 ?>
 
 <?php
