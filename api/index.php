@@ -19,5 +19,9 @@
 ?>
 
 <?php
+    include "includes/popup.php";
+?>
+
+<?php
     include "includes/footer.php";
 ?>

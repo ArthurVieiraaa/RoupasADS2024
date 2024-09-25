@@ -7,7 +7,7 @@
             <div class="info">
                 <h2>Camisa Suf SUFTONE</h2>
                 <h4>R$99,90</h4>
-                <button><a href="#">Comprar</a></button>
+                <button id="open-modal">Comprar</button>
             </div>
         </div>
         <div>
@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-
+    
     <h1>Calças:</h1>
     <div class="card">
         <div>

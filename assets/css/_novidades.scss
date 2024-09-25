@@ -66,7 +66,7 @@
     margin-top: 5px;
 }
 
-.card .info button{
+.card .info #open-modal{
     width: 100px;
     height: 45px;
     margin-top: 10px;
@@ -80,14 +80,14 @@
     transition: all 0.3s;
 }
 
-.card .info button:hover{
+.card .info #open-modal:hover{
     background-color: #9b7d67;
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
     transform: scale(1.05);
 }
 
-.card .info button a{
+.card .info #open-modal a{
     color: #fff;
     text-decoration: none;
 }
